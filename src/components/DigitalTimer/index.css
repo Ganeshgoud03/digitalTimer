@@ -1,0 +1,351 @@
+/* Write your CSS here */
+@media (max-width: 576px) {
+  .bg-container {
+    background-image: linear-gradient(to bottom, #ffffff 10%, #cffcf1 90%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+  }
+
+  .main-heading {
+    color: #1e293b;
+    font-size: 30px;
+  }
+
+  .bottom-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .timer-card {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+    background-size: cover;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timer-container {
+    background-color: #ffffff;
+    height: 35%;
+    width: 30%;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timer-control-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timer {
+    color: #00d9f5;
+    font-size: 30px;
+    margin-top: 15%;
+    height: 10%;
+  }
+
+  .timer-status {
+    color: #0f172a;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -1%;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .play-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .play-btn {
+    border: none;
+    background-color: transparent;
+    margin-right: -25%;
+    color: #0f172a;
+    font-size: 26px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .play-img {
+    height: 20%;
+    width: 20%;
+  }
+
+  .reset-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: -25%;
+  }
+
+  .reset-btn {
+    border: none;
+    background-color: transparent;
+    margin-right: -25%;
+  }
+
+  .reset-img {
+    height: 20%;
+    width: 20%;
+  }
+
+  .p2 {
+    color: #0f172a;
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .minute-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p3 {
+    font-size: 18px;
+    color: #0f172a;
+    font-weight: 500;
+  }
+
+  .increment-decrement-card {
+    display: flex;
+    flex-direction: row;
+    margin-top: -15%;
+  }
+
+  .decrement-btn {
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 40px;
+    color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .p4 {
+    background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+    height: 60px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0f172a;
+    font-weight: 500;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+
+  .increment-btn {
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 40px;
+    color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .bg-container {
+    background-image: linear-gradient(to bottom, #ffffff 10%, #cffcf1 90%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+  }
+
+  .main-heading {
+    color: #1e293b;
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  .bottom-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .timer-card {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+    background-size: cover;
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timer-container {
+    background-color: #ffffff;
+    height: 35%;
+    width: 30%;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timer-control-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timer {
+    color: #00d9f5;
+    font-size: 50px;
+    margin-top: 15%;
+    height: 10%;
+  }
+
+  .timer-status {
+    color: #0f172a;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -1%;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .play-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .play-btn {
+    border: none;
+    background-color: transparent;
+    margin-right: -25%;
+    color: #0f172a;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .play-img {
+    height: 25%;
+    width: 25%;
+  }
+
+  .reset-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15%;
+  }
+
+  .reset-btn {
+    border: none;
+    background-color: transparent;
+    margin-right: -25%;
+  }
+
+  .reset-img {
+    height: 25%;
+    width: 25%;
+  }
+
+  .p2 {
+    color: #0f172a;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+
+  .minute-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p3 {
+    font-size: 18px;
+    color: #0f172a;
+    font-weight: 500;
+  }
+
+  .increment-decrement-card {
+    display: flex;
+    flex-direction: row;
+    margin-top: -15%;
+  }
+
+  .decrement-btn {
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 40px;
+    color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .p4 {
+    background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+    height: 60px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0f172a;
+    font-weight: 500;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+
+  .increment-btn {
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 40px;
+    color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+}
